@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="ig.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="gallery">
+        <img src="alcazar.jpeg" alt="alcazar" class="active" />
+        <img src="be6e.jpeg" alt="be6e" />
+        <img src="nexon.jpeg" alt="nexon" />
+        <img src="slavia.jpeg" alt="slavia" />
+        <img src="virtus.jpeg" alt="virtus" />
+      </div>
+      <button class="prev-btn">&#60;</button>
+      <button class="next-btn">&#62;</button>
+    </div>
+    <div class="thumbnails">
+      <img src="alcazar.jpeg" alt="alcazar" onclick="showImage(0)" />
+      <img src="be6e.jpeg" alt="be6e" onclick="showImage(1)" />
+      <img src="nexon.jpeg" alt="nexon" onclick="showImage(2)" />
+      <img src="slavia.jpeg" alt="slavia" onclick="showImage(3)" />
+      <img src="virtus.jpeg" alt="virtus" onclick="showImage(4)" />
+    </div>
+    <script src="ig.js"></script>
+  </body>
+</html>
